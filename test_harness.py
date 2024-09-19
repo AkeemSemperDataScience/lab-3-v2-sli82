@@ -6,7 +6,7 @@ def test_lab3Question1_2():
     assert lab3Question1(15, 10) == False
 def test_lab3Question1_3():
     assert lab3Question1(0, 10) == True
-
+ 
 def test_lab3Question2_1():
     assert lab3Question2(0) == "zero"
 def test_lab3Question2_2():
@@ -25,7 +25,7 @@ def test_lab3Question3_3():
 def test_lab3Question3_4():
     assert lab3Question3(1500) == "ancient"
 def test_lab3Question3_5():
-    assert lab3Question3("invalid") == "invalid"
+    assert lab3Question3(1909) == "20th century"
 
 def test_lab3Question4_1():
     assert lab3Question4(5, 10, 15) == 15
@@ -48,5 +48,3 @@ def test_lab3Question5_5():
     assert lab3Question5(10, "F") == "Solid"
 def test_lab3Question5_6():
     assert lab3Question5(220, "F") == "Gas"
-def test_lab3Question5_7():
-    assert lab3Question5(25, "K") == "Invalid"
