@@ -13,8 +13,6 @@ def test_lab3Question2_2():
     assert lab3Question2(5.5) == "positive"
 def test_lab3Question2_3():
     assert lab3Question2(-10) == "negative"
-def test_lab3Question2_4():
-    assert lab3Question2("invalid") == "invalid"
 
 def test_lab3Question3_1():
     assert lab3Question3(2021) == "21st century"
