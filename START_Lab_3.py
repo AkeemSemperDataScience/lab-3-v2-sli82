@@ -37,7 +37,7 @@ def lab3Question3(year):
     elif 2001 <= year  <= 2100:
         return "21st century"
     elif 1901 <= year  <= 2000:
-        return "20st century"
+        return "20th century"
     elif 1801 <= year  <= 1900:
         return "19th century"
     elif year < 1801:
